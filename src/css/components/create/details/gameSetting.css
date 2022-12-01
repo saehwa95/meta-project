@@ -1,0 +1,27 @@
+.game-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  float: right;
+  border-bottom: 1px solid #808080;
+}
+
+.game-title {
+  width: 10%;
+  height: 50px;
+  font-size: 20px;
+  background-color: #808080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid white;
+}
+
+.game-check {
+  margin: 0 10px 0 10px;
+}
+
+.game-check label {
+  margin-right: 20px;
+}
