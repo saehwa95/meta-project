@@ -1,0 +1,11 @@
+.nickname {
+  font-size: 24px;
+  font-weight: 600;
+  color: #424040;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 20px 0 20px;
+  border-bottom: 2px solid #808080;
+}
