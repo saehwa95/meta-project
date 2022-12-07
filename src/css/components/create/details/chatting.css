@@ -17,6 +17,7 @@
   justify-content: center;
   flex-direction: column;
   border-top: 1px solid white;
+  color: black;
 }
 
 .chat-check  {

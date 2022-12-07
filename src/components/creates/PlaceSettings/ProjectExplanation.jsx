@@ -11,7 +11,7 @@ const ProjectExplanation = () => {
       </div>
       <div className="project-information__input">
         <input
-          type={"text"}
+          type="text"
           placeholder={
             "모바일에서 표시될 프로젝트 설명을 입력해주세요. (50자 이내)"
           }
