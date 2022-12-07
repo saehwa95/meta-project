@@ -62,7 +62,7 @@ img {
   font-weight: 600;
   margin-left: 10px;
   color: black;
-  width: 1000px;
+  width: 500px;
   height: 40px;
 }
 
@@ -71,4 +71,9 @@ img {
   align-items: center;
   justify-content: center;
   margin-left: 150px;
+}
+
+.project-name-span {
+  font-size: 14px;
+  color: #808080;
 }

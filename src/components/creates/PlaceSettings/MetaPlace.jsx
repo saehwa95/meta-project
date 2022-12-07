@@ -23,10 +23,9 @@ const MetaPlace = () => {
         <div className="project-name">
           <input
             type="text"
-            placeholder={
-              "모바일에서 표시될 프로젝트 설명을 입력해주세요. (50자 이내)"
-            }
+            placeholder="모바일에서 표시될 프로젝트 설명을 입력해주세요. (50자 이내)"
           />
+          <span className="project-name-span">모바일 홈 화면에 보여질 썸네일을 등록할 수 있습니다.</span>
         </div>
       </div>
     </>
