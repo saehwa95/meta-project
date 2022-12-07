@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../css/category.css'
 
 const Category = () => {
@@ -6,11 +7,11 @@ const Category = () => {
     <>
       <div className="category-wrapper">
         <h2 className="categorys">Meta Frame</h2>
-        <button className="category-btn">HOME</button>
-        <button className="category-btn">프로젝트 생성</button>
-        <button className="category-btn">프로젝트 콘텐츠</button>
-        <button className="category-btn">Assets</button>
-        <button className="category-btn">나의 계정</button>
+        <Link to="/"  className="category-btn">HOME</Link>
+        <Link to="/" className="category-btn">프로젝트 생성</Link>
+        <Link to="/ProjectContents" className="category-btn">프로젝트 콘텐츠</Link>
+        <Link to="/Asset" className="category-btn">Assets</Link>
+        <Link to="/"  className="category-btn">나의 계정</Link>
       </div>
     </>
   );

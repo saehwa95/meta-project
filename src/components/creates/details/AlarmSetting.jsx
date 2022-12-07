@@ -11,7 +11,7 @@ const AlarmSetting = () => {
       </div>
       <div className="alarm-check">
         <Toggle/>
-        <select className="person-option">
+        <select className="time-option">
           <option>10분 전</option>
           <option>15분 전</option>
           <option>20분 전</option>

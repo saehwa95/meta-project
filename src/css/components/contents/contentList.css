@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #808080;
+  border-collapse: collapse;
+}
+
+thead {
+  height: 40px;
+  background-color: #0d2f42;
+  color: white;
+}
+
+tbody {
+  height: 80px;
+}
+
+th, td {
+  border-top: 1px solid #808080;
+  border-right: 1px solid #808080;
+}
+
+.last-th, .last-td{
+  border-right: none;
+}

@@ -1,0 +1,14 @@
+.detail-setting {
+  display: flex;
+  align-items: center;
+}
+
+.left-setting {
+  display: flex;
+}
+
+.right-setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

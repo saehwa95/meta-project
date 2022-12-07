@@ -4,14 +4,15 @@ import ProjectCreate from "./pages/ProjectCreate";
 import ProjectContents from "./pages/ProjectContents";
 import Asset from "./pages/Asset";
 
+
 const App = () => {
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<ProjectCreate />} />
-          <Route path="/contents" element={<ProjectContents />} />
-          <Route path="/asset" element={<Asset />} />
+          <Route path="/ProjectContents" element={<ProjectContents />} />
+          <Route path="/Asset" element={<Asset />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,7 +1,12 @@
 import React from "react";
+import Category from "../components/Category";
 
 const asset = () => {
-  return <div>asset</div>;
+  return (
+    <>
+      <Category />
+    </>
+  );
 };
 
 export default asset;

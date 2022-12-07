@@ -1,6 +1,8 @@
 //인원제한 작성을 위한 파일입니다.
 import React from "react";
 import "../../../css/components/create/placeSetting/personnel.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
 
 const Personnel = () => {
   return (
@@ -30,7 +32,7 @@ const Personnel = () => {
       </select>
       <span>명</span>
       <span>{` (총 인원 수 / 채널 인원 수)`} </span>
-      <i class="far fa-question-circle"></i>
+      <FontAwesomeIcon icon={faQuestionCircle} />
     </div>
   );
 };
