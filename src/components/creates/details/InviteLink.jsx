@@ -11,6 +11,7 @@ const InviteLink = () => {
       </div>
       <div className="invite-check">
         <Toggle />
+        <span className="invite-title-span">앱 내부에 초대 링크가 생성됩니다.</span>
       </div>
     </div>
   );
